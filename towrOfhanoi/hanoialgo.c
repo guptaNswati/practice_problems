@@ -6,8 +6,8 @@
 * @Origin: Also called Tower of Brahma (assocaited with Indian legend) or
 * Lucas' Tower (inventd by French mathematician Édouard Lucas in 1883)
 * @Constraints: 1. Only one disk can be moved at a time.
-* 2. Only the "top" disk can be removed
-* 3. No disk can be placed on top of a smaller disk.
+* 2. Only the top disk can be removed
+* 3. No big disk can be placed on top of a small disk.
 *
 */
 
@@ -46,7 +46,7 @@ int main()
 
 	n = 3;
 	printf("Recursive Solution: \n");
-	towrofHanoi(n, 'M', 'F', 'W');
+	towrofHanoi(n, 'M', 'W', 'F');
 	printf("-----------------------------------------------------------\n");
 	printf("Iterative Solution: \n");
 	towr_of_hanoi(n);
@@ -55,14 +55,13 @@ int main()
 
 /**
 Result of run:
-Recursive Solution:
-Moving disk 1 from M to W
-Moving disk 2 from M to F
-Moving disk 1 from W to F
-Moving disk 3 from M to W
-Moving disk 1 from F to M
-Moving disk 2 from F to W
-Moving disk 1 from M to W
+Moving disk 1 from M to F
+Moving disk 2 from M to W
+Moving disk 1 from F to W
+Moving disk 3 from M to F
+Moving disk 1 from W to M
+Moving disk 2 from W to F
+Moving disk 1 from M to F
 -----------------------------------------------------------
 Iterative Solution:
 Moving disk from 0 to 2
