@@ -7,7 +7,7 @@
 * Lucas' Tower (inventd by French mathematician Édouard Lucas in 1883)
 * @Constraints: 1. Only one disk can be moved at a time.
 * 2. Only the "top" disk can be removed
-* 3. No disk can be placed on top of a smaller disk.
+* 3. No larger disk can be placed on top of a smaller disk.
 *
 */
 
