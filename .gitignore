@@ -3,6 +3,7 @@
 *~
 \#*\#
 a.out
+__pycache__
 /.emacs.desktop
 /.emacs.desktop.lock
 *.elc
